@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+    font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
+    text-align: center;
+    border-top: 15px solid #ccc;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    color: #ccc;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+}
+
+.header img {
+    border-radius: 50%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff3;
+}
+
+a:hover {
+    color: rgb(94, 93, 93);
+}
+
+.p-1, .p-2, .p-3 {
+    color: white;
+}
+
+.p-2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.work-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work-container > div {
+    width: 95%;
+    min-height: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.photography-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.photography-container > div {
+    height: 500px;
+    width: 95%;
+    background-color: white; 
+    text-align: center;
+    font-size: 25px;
+}
+
+.listening-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.listening-container > div {
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+}
