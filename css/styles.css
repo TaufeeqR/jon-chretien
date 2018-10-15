@@ -1,16 +1,19 @@
 body {
-    background-color: rgba(0, 0, 0, 0.945);
+    background-color: rgba(0, 0, 0, 0.952);
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
-    text-align: center;
-    border-top: 15px solid #ccc;
+    border-top: 13px solid rgb(61, 60, 60);
+    margin: 0;
+    padding: 56px;
 }
 
 h1 {
     color: white;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 46px;
+    font-weight: 900;
     text-align: center;
     font-family: 'Vollkorn', serif;
+    display: inline-block;
+    margin: 0;
 }
 
 h2 {
@@ -22,9 +25,26 @@ h2 {
 
 p {
     color: #ccc;
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 400;
     font-family: 'Vollkorn', serif;
+    margin-top: 0;
+}
+
+.para {
+    color: #ccc;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+}
+
+/* Styling for the header container */
+.header-container {
+    display: grid;
+    text-align: center;
+    border-bottom: #666 3px double;
+    margin: 0 85px 72px 85px;
+    margin-bottom: 56px;
 }
 
 .header img {
@@ -33,6 +53,7 @@ p {
 
 a:link {
     text-decoration: none;
+    color: #ff3;
 }
 
 a:visited {
@@ -43,45 +64,68 @@ a:hover {
     color: rgb(94, 93, 93);
 }
 
-.p-1, .p-2, .p-3 {
-    color: white;
+img {
+    transition: opacity 400ms ease-in-out;
 }
 
+img:hover {
+    opacity: 0.7;
+}
+
+/* Styling for the p-1 paragraphs */
+.p-1 {
+    color: #ccc;
+    font-size: 15px; 
+    line-height: 1.6em;
+}
+
+/* Styling for the p-2 paragraphs */
 .p-2 {
-    color: white;
+    color: #ccc;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
+/* Styling for the p-3 paragraphs */
+.p-3 {
+    color: #ccc;
+}
 
+/* Styling for the work container starts here */
 .work-container {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 90%;
     margin: 0 auto;
+    border-bottom: #666 1px solid;
 }
 
 .work-container > div {
     width: 95%;
     min-height: 300px;
-    text-align: center;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
+/* Styling for the photography container starts here */
 .photography-container {
     display: grid;
     grid-template-columns: auto auto;
     width: 90%;
     margin: 0 auto;
+    grid-gap: 25px;
+    border-bottom: #666 1px solid;
 }
 
 .photography-container > div {
     height: 500px;
     width: 95%;
-    background-color: white; 
     text-align: center;
     font-size: 25px;
 }
 
+/* Styling for the music container begins here */
 .listening-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
