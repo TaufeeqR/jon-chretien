@@ -54,6 +54,14 @@ p {
     border-radius: 50%;
 }
 
+img {
+    transition: opacity 400ms ease-in-out;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
 a:link {
     text-decoration: none;
     color: #ff3;
@@ -67,14 +75,6 @@ a:hover {
     color: rgb(94, 93, 93);
 }
 
-img {
-    transition: opacity 400ms ease-in-out;
-}
-
-img:hover {
-    opacity: 0.7;
-}
-
 /* Styling for the p-1 paragraphs */
 .p-1 {
     color: #ccc;
@@ -84,9 +84,9 @@ img:hover {
 
 /* Styling for the p-2 paragraphs */
 .p-2 {
-    color: #ccc;
+    color: rgb(133, 128, 128);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
 }
 
@@ -102,8 +102,8 @@ img:hover {
     width: 90%;
     margin: 0 auto;
     border-bottom: #666 1px solid;
-    padding-bottom: 65px;
-    margin: 0 85px 65px 85px;
+    padding-bottom: 60px;
+    margin: 0 85px 56px 85px;
 }
 
 .work-container > div {
@@ -118,10 +118,10 @@ img:hover {
     display: grid;
     grid-template-columns: auto auto;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 85px 56px 85px;
     grid-gap: 15px;
     border-bottom: #666 1px solid;
-    padding-bottom: 65px;
+    padding-bottom: 72px;
 }
 
 .photography-container > div {
@@ -153,9 +153,9 @@ img:hover {
     display: grid;
     grid-template-columns: auto auto auto auto;
     width: 90%;
-    margin: auto;
+    margin: 0 85px 56px 85px;
     border-bottom: #666 1px solid;
-    padding-bottom: 65px;
+    padding-bottom: 72px;
     
 }
 
@@ -165,4 +165,32 @@ img:hover {
     text-align: center;
     font-size: 25px;
     height: fit-content;
+}
+
+/* Styling for the Nav bar below */
+.nav-container {
+    margin: auto;
+    display: -ms-inline-grid;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.nav-container li {
+    float: left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.nav-container li a{
+    padding: 0 15px 0 15px;
+}
+
+.nav-container p {
+    float: right;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.5;
 }
