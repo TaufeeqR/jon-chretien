@@ -1,3 +1,4 @@
+/* Body styling below */
 body {
     background-color: rgba(0, 0, 0, 0.952);
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
@@ -6,6 +7,7 @@ body {
     padding: 56px;
 }
 
+/* h1 styling below */
 h1 {
     color: white;
     font-size: 47px;
@@ -16,6 +18,7 @@ h1 {
     margin: 10px 0 0 0;
 }
 
+/* Paragraph styling below */
 p {
     color: #ccc;
     font-size: 34px;
@@ -24,6 +27,7 @@ p {
     margin-top: 0;
 }
 
+/* Custom h2 styling below */
 .h-2 {
     color: white;
     font-size: 46px;
@@ -32,12 +36,33 @@ p {
     margin: 50px 0 10px 0;
 }
 
+/* Custom paragraph styling below */
+.p-1 {
+    color: #ccc;
+    font-size: 15px; 
+    line-height: 1.6em;
+}
+
+/* Styling for the p-2 paragraphs */
+.p-2 {
+    color: rgb(133, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/* Styling for the p-3 paragraphs */
+.p-3 {
+    color: #ccc;
+}
+
 .para {
     color: #ccc;
     font-size: 35px;
     font-weight: 400;
     font-family: 'Vollkorn', serif;
 }
+/* Custom paragraph styling ends here */
 
 /* Styling for the header container */
 .header-container {
@@ -53,7 +78,9 @@ p {
 .header img {
     border-radius: 50%;
 }
+/* header container styling ends here */
 
+/* Images and links styling below */
 img {
     transition: opacity 400ms ease-in-out;
 }
@@ -74,26 +101,7 @@ a:visited {
 a:hover {
     color: rgb(94, 93, 93);
 }
-
-/* Styling for the p-1 paragraphs */
-.p-1 {
-    color: #ccc;
-    font-size: 15px; 
-    line-height: 1.6em;
-}
-
-/* Styling for the p-2 paragraphs */
-.p-2 {
-    color: rgb(133, 128, 128);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    letter-spacing: 1px;
-}
-
-/* Styling for the p-3 paragraphs */
-.p-3 {
-    color: #ccc;
-}
+/* Images and links styling ends here */
 
 /* Styling for the work container starts here */
 .work-container {
@@ -130,7 +138,7 @@ a:hover {
     font-size: 20px;
 }
 
-
+/* Photography images styling below */
 .item--1 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -147,6 +155,7 @@ a:hover {
     grid-row: 2 / span 2;
     width: 100%;
 }
+/* Photography container styling ends here */
 
 /* Styling for the music container begins here */
 .listening-container {
@@ -167,7 +176,7 @@ a:hover {
     height: fit-content;
 }
 
-/* Styling for the Nav bar below */
+/* Styling for the Nav container below */
 .nav-container {
     margin: auto;
     display: -ms-inline-grid;
@@ -194,3 +203,4 @@ a:hover {
     font-size: 20px;
     line-height: 1.5;
 }
+/* Nav container styling ends here */
