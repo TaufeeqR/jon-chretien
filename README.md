@@ -22,7 +22,7 @@ scratch using the coding skills I have learned and developed from the start of t
 
 ## Live Link:
 
-Live link --->https://taufeeqr.github.io/jonchretien/index.html
+Live link ---> https://taufeeqr.github.io/jon-chretien/index.html
 
 ## Contributors:
 
