@@ -4,7 +4,9 @@
 
 
 ```
-In this project, I will be attempting to replicate the Jon Chretien website from scratch using the coding skills I have learned and developed from the start of the course.
+In this project, I will be attempting to replicate the Jon Chretien website from 
+
+scratch using the coding skills I have learned and developed from the start of the course.
 ```
 
 ##Software and Programs used:
