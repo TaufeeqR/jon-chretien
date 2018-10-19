@@ -9,7 +9,7 @@ In this project, I will be attempting to replicate the Jon Chretien website from
 scratch using the coding skills I have learned and developed from the start of the course.
 ```
 
-##Software and Programs used:
+## Software and Programs used:
 
 ```
 -HTML
@@ -24,7 +24,7 @@ scratch using the coding skills I have learned and developed from the start of t
 
 Live link --->https://taufeeqr.github.io/jonchretien/index.html
 
-## Contributors
+## Contributors:
 
 ```
 Taufeeq Rajap
